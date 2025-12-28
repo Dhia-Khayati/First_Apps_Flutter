@@ -5,7 +5,6 @@
 
 <img width="356" height="795" alt="image" src="https://github.com/user-attachments/assets/636325af-5982-43cc-aef4-6019a93d1d4f" />
   
-*(Add a real screenshot of your game here)*
 
 ## Features
 - Clean and colorful UI with a purple AppBar
@@ -13,8 +12,7 @@
 - Instant feedback: "You Win" or "Try Again"
 - Great beginner example for understanding **StatefulWidget**, **setState()**, and asset images in Flutter
 
-## Screenshots
-*(Add actual screenshots here)*
+
 
 | Matching Images          | Non-matching Images      |
 |--------------------------|--------------------------|

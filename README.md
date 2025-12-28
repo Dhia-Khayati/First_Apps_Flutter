@@ -3,7 +3,8 @@
 > A simple Flutter mobile game where the player tries to match two images by clicking on them.  
 > **This project is created purely for learning purposes** during my Flutter/Dart study period.
 
-![Game Screenshot](assets/screenshot.png)  
+<img width="356" height="795" alt="image" src="https://github.com/user-attachments/assets/636325af-5982-43cc-aef4-6019a93d1d4f" />
+  
 *(Add a real screenshot of your game here)*
 
 ## Features

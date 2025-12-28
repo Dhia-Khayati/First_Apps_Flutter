@@ -1,0 +1,40 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(testApp());
+}
+
+class testApp extends StatelessWidget {
+  const testApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("Météo Aujourd'hui"),
+          backgroundColor: Colors.orange,
+        ),
+        body: Center(
+          child: Column(
+            children: [
+              Icon(Icons.wb_sunny, size: 120, color: Colors.yellow),
+              Text(
+                "28°C",
+                style: TextStyle(
+                  fontSize: 60,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black,
+                ),
+              ),
+              Text(
+                "Humidité : 55%",
+                style: TextStyle(fontSize: 35, color: Colors.grey[800]),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}

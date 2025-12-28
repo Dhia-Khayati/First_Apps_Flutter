@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'dart:math';
+//import 'dart:math'; Removed for securty !!
 
 void main() {
   runApp(
@@ -8,10 +8,7 @@ void main() {
         child: Scaffold(
           appBar: AppBar(
             backgroundColor: const Color.fromARGB(255, 159, 35, 163),
-            title: Text(
-              "Taqsdqsdtabok Game",
-              style: TextStyle(color: Colors.white),
-            ),
+            title: Text("Tachaboh Game", style: TextStyle(color: Colors.white)),
           ),
           body: Game(),
         ),
@@ -28,8 +25,8 @@ class Game extends StatefulWidget {
 }
 
 class _GameState extends State<Game> {
-  int idImageLeft = 1;
-  int idImageRight = 1;
+  int idImageLeft = 2;
+  int idImageRight = 2;
 
   @override
   Widget build(BuildContext context) {
@@ -49,7 +46,8 @@ class _GameState extends State<Game> {
                 child: TextButton(
                   onPressed: () {
                     setState(() {
-                      idImageLeft = Random().nextInt(14) + 1;
+                      //idImageRight = Random().nextInt(14) + 1; Removed for secruty Photos deleted
+                      idImageRight = 2;
                     });
                     print("Clicked !");
                   },
@@ -60,7 +58,8 @@ class _GameState extends State<Game> {
                 child: TextButton(
                   onPressed: () {
                     setState(() {
-                      idImageRight = Random().nextInt(14) + 1;
+                      //idImageRight = Random().nextInt(14) + 1; Removed for secruty Photos deleted
+                      idImageRight = 2;
                     });
                   },
                   child: Image.asset("images/Photo-$idImageRight.jpg"),
